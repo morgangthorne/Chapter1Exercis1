@@ -9,6 +9,7 @@ and display their gross pay
 */
 
 #include <iostream>
+#include<iomanip>
 using namespace std;
 
 int main()
@@ -21,7 +22,7 @@ int main()
     cout << "How much do you earn an hour?";
     cin >> payrate;
     pay = hours * payrate;
-    cout << "Your pay check this week is $" << pay << "\n";
+    cout <<fixed<<setprecision(2)<<"Your pay check this week is $" << pay << "\n";
     return 0;
 }
 
