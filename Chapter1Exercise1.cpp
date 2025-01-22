@@ -22,6 +22,7 @@ int main()
     cin >> payrate;
     pay = hours * payrate;
     cout << "Your pay check this week is $" << pay << "\n";
+    return 0;
 }
 
 
