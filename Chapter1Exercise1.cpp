@@ -13,7 +13,11 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
+    int hours=40;
+    double payrate=15.00;
+    double pay;
+    pay = hours * payrate;
+    cout << "Your pay check this week is $" << pay << "\n";
 }
 
 
